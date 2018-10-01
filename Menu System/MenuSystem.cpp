@@ -28,8 +28,10 @@ void MenuSystem<T>::LoadMenuItem(string fileName)
 	mnuIn.open(filePath, ios::in);
 
 	if (!mnuIn)
-		cout << "Unable to open file: " << fileName;
+		cout << "Unable to open file: " << fileName << endl;
 	else
-	{ }
+	{
+		cout << "File opened successfully!" << endl;
+	}
 
 }
